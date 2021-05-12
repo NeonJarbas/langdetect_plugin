@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 from setuptools import setup
 
-PLUGIN_ENTRY_POINT = 'fastlang_plug = ' \
-                     'langdetect_neon_plugin:FastLangDetector'
+PLUGIN_ENTRY_POINT = 'langdetect_plug = ' \
+                     'langdetect_neon_plugin:LangDetectDetector'
 setup(
     name='langdetect_neon_plugin',
     version='0.0.1',
