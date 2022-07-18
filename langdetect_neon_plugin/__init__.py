@@ -11,4 +11,3 @@ class LangDetectDetector(LanguageDetector):
         for lang in detect_langs(text):
             langs[lang.lang] = lang.prob
         return langs
-
